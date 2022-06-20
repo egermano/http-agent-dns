@@ -1,0 +1,36 @@
+{
+  "name": "http-agent-dns",
+  "version": "0.1.0",
+  "description": "Custom HTTP Agent",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=12.*"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ./src ./*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:egermano/http-agent-dns.git"
+  },
+  "keywords": [
+    "http",
+    "agent",
+    "request"
+  ],
+  "author": "Bruno Germano <bruno@egermano.com>",
+  "license": "UNLICENSED YET",
+  "dependencies": {
+    "ipaddr.js": "^2.0.1"
+  },
+  "devDependencies": {
+    "@jest/globals": "^27.4.6",
+    "axios": "^0.24.0",
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^25.3.4",
+    "jest": "^27.4.7"
+  }
+}
