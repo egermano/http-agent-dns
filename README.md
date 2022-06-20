@@ -82,14 +82,8 @@ request.get({
 });
 ```
 
-## Collaborations
+## Other documentations
 
-`//TODO: write a code of collaboration`
-
-## Code of Conduct
-
-`//TODO: Write a code of conduct`
-
-## License
-
-`//TODO: Write about the license`
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Collaboration and Contributing](CONTRIBUTING.md)
+- License: [GNU General Public License v3.0](LICENSE)
