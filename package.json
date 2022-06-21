@@ -1,5 +1,5 @@
 {
-  "name": "http-agent-dns",
+  "name": "@egermano/http-agent-dns",
   "version": "0.1.0",
   "description": "Custom HTTP Agent",
   "main": "src/index.js",
