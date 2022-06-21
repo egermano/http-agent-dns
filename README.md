@@ -8,7 +8,29 @@ Minimum Node version required: `>=12.*`
 
 ## Install
 
-`//TODO: after the package deployment`
+### From NPM
+
+`//TODO: deploy the package in npm official repository`
+
+### From Github Registry
+
+In order to install the package from Github Registry, you need to setup your npm to use the Github Registry.
+
+```bash
+$ npm login --scope=@egermano --registry=https://npm.pkg.github.com
+
+> Username: USERNAME
+> Password: TOKEN
+> Email: PUBLIC-EMAIL-ADDRESS
+```
+
+For more information, please visit [Working with Github Packages Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry)
+
+Install the package:
+
+```bash
+npm add @egermano/http-agent-dns
+```
 
 ## Usage
 
