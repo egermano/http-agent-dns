@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog],
 and this project adheres to [Semantic Versioning].
 
+## [0.1.1] - 2022-06-21
+
+### Fixed
+
+- [#8] Fixed the package publishment.
+
+### Changed
+
+- Documentation updated.
+
 ## [0.1.0] - 2022-06-20
 
 - inital release
