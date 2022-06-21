@@ -1,0 +1,52 @@
+stages:
+  - lint
+  - test
+
+variables:
+  LC_ALL: en_US.UTF-8
+
+lint:
+  stage: lint
+  variables:
+    NODE_ENV: test
+  image: node:14
+  tags:
+    - 'docker'
+  script:
+    - npm ci
+    - npm run lint
+  when: always
+
+test-12:
+  stage: test
+  image: node:12
+  needs: [lint]
+  tags:
+    - 'docker'
+  script:
+    - npm ci
+    - npm run test
+  when: always
+
+test-14:
+  stage: test
+  image: node:14
+  needs: [lint]
+  tags:
+    - 'docker'
+  script:
+    - npm ci
+    - npm run test
+  when: always
+
+test-16:
+  stage: test
+  image: node:16
+  needs: [lint]
+  tags:
+    - 'docker'
+  script:
+    - npm ci
+    - npm run test
+  when: always
+
